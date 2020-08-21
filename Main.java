@@ -15,13 +15,6 @@ class Main {
         initialize();
         System.out.println(diversity);
         System.out.println(equitability);
-        Scanner sc = new Scanner(new File("Biodiversity Cars Analysis - Sheet1.csv"));  
-        sc.useDelimiter(",");   //sets the delimiter pattern  
-        while (sc.hasNext()) { //returns a boolean value   
-            System.out.print(sc.next() + " ");  //find and returns the next complete token from this scanner  
-        }   
-        sc.close(); 
-        //closes the scanner  
     }
 
     public static void initialize() {
